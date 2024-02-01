@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"                                                                                                                                                                                                                                                                                                           content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an Ecommerce project for making zahan express ">
+    <title>Ecommerce Project</title>
+     <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!-- Navbar starts here -->
+       <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+       <nav id="menu" class="hidden">
+        <ul class="nav-upper 
+        flex-space-around">
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-list">
+                <a href="Register.html" class="nav-link">Register</a>
+            </li>
+
+            <li class="nav-list">
+                <a href="login.html" class="nav-link">Login</a>
+            </li>
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">Logout</a>
+            </li>
+            <li class="nav-list">
+                <a href="contact.html" class="nav-link">contact</a>
+            </li>
+
+            <li class="nav-list">
+                <a href="profile.html" class="nav-link">
+                     <img class="profile-icon" 
+                     src="/images/profile.jpg" 
+                     alt="profile icon"></a>
+            </li>
+        </ul> 
+
+        <ul class="nav-lower flex-space-around">
+            <li class="nav-list">
+            <a href="index.html" class="nav_brand  nav-link">Zahan Express</a>
+        </li>
+
+        <li class="nav-list">
+            <a href="/card.html" class="nav-link"><span><i class="fa-solid fa-cart-shopping" ></i></span>Cart 2 products -$124.40</a>
+        </li>
+        </ul>
+    </nav>
+    <!-- Navbar ends here -->
+    <main>
+        <section class="contact-section">
+            <h2 class="section-title text-center">
+                Contact us
+            </h2>
+            <div class="contact-conatiner flex-center">
+                <form action="" class="from card">
+
+                    <div class="from-control flex-center">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required 
+                        autocomplete="name">
+                     </div>
+     
+                     <div class="from-control flex-center">
+                         <label for="email">Email</label>
+                         <input type="email" id="email" required autocomplete="email">
+                      </div>
+
+                      <div class="from-control flex-center">
+                        <label for="messge">Message</label>
+                        <textarea name="messge" id="messge"></textarea>
+                     </div>
+
+                     <div class="from-control flex-center form-btn-field">
+                        <button type="submit" class="btn contact-btn">Submit</button>
+                     </div>
+                </form>
+
+                <div class="contact-address flex-space-around">
+                    <address>
+                        <h4>Address:</h4>
+                        <p>Rampal,Bagerhat,Bangladesh</p>
+                        <p>Khulna,Bangladesh</p>
+                        <br>
+                        <span>Call:</span>
+                        <a href="tel:01603808196">01603808196</a>
+                    </address>
+                    <iframe class="contact__map"
+                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235331.73767839966!2d89.54004721533585!3d22.837328727067284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff9071cb47152f%3A0xf04b212290718952!2sKhulna!5e0!3m2!1sen!2sbd!4v1706162447372!5m2!1sen!2sbd"
+                    
+                    style="border:0;" 
+                    allowfullscreen=""
+                    loading="lazy"
+                     referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+               
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer starts here -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="Subscribe">Subscribe to Newsletter:</label>
+            <input type="Email" id="subscribe" name="subscribe " class="footer_input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy;Copyright 2023 zahan express</p>
+        </div>
+    </footer>
+    <!-- Footer ends here -->
+    <script src="./Script/index.js"></script>
+    
+    
+</body>
+</html>
